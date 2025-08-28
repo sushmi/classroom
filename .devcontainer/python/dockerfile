@@ -1,7 +1,6 @@
 FROM ubuntu:24.04
 
-# This is akraradet convention.
-ARG WORKDIR=/Projects/Python-for-Machine-Learning
+ARG WORKDIR=/app/ml-classroom
 WORKDIR ${WORKDIR}
 # Ubuntu already have `ubuntu` user
 ARG USERNAME=ubuntu

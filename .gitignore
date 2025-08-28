@@ -5,6 +5,9 @@
 **/._.DS_Store
 
 
-.github/*
+# git
+.github/
 
-.venv/
+
+# Virtual Environments
+.venv
