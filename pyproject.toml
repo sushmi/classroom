@@ -4,14 +4,17 @@ version = "0.1.0"
 description = "Classroom"
 readme = "README.md"
 authors = [
-    { name = "Sushmi S", email = "sushmi" }
+    { name = "Sushmi S", email = "sushmi@example.com" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "scipy>=1.11",
+    "scikit-learn>=1.5.1",
+]
 
 [project.scripts]
 classroom = "classroom:main"
 
 [build-system]
-requires = ["uv_build>=0.8.13,<0.9.0"]
-build-backend = "uv_build"
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
