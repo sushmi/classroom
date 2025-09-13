@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: classroom
+Version: 0.1.0
+Summary: Classroom
+Author-email: Sushmi Shrestha <st126256@ait.ac.th>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipykernel>=6.30.1
+Requires-Dist: matplotlib>=3.10.6
+Requires-Dist: mlflow>=3.3.2
+Requires-Dist: numpy>=2.2.6
+Requires-Dist: pandas>=2.3.2
+Requires-Dist: ppscore>=1.1.0
+Requires-Dist: scikit-learn>=1.7.2
+Requires-Dist: scipy>=1.11
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: shap>=0.48.0
+Requires-Dist: torch>=2.8.0
+Requires-Dist: torchvision>=0.23.0
+Dynamic: license-file
+
+Project Structure
+
+.
+|-- LICENSE
+|-- README.md                      
+|-- data                    # where your data file should be
+|   `-- example.csv         
+|-- docs                    # where your document should be
+|-- models                  # where your models weight should be
+|-- notebooks               # where your jupyter notebook should be
+|   `-- 0-starter.ipynb
+|-- pyproject.toml         
+|-- src                     # where the code/module should be
+|   `-- __init__.py
+`-- uv.lock

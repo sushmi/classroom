@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/classroom/__init__.py
+src/classroom.egg-info/PKG-INFO
+src/classroom.egg-info/SOURCES.txt
+src/classroom.egg-info/dependency_links.txt
+src/classroom.egg-info/entry_points.txt
+src/classroom.egg-info/requires.txt
+src/classroom.egg-info/top_level.txt
