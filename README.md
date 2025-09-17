@@ -13,3 +13,21 @@ Project Structure
 |-- src                     # where the code/module should be
 |   `-- __init__.py
 `-- uv.lock
+
+
+
+$ docker login
+
+```
+USING WEB-BASED LOGIN
+
+i Info → To sign in with credentials on the command line, use 'docker login -u <username>'
+         
+
+Your one-time device confirmation code is: ABCD-EFGH
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+Waiting for authentication in the browser…
+
+Login Succeeded
+```

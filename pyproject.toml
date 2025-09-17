@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Classroom"
 readme = "README.md"
 authors = [
-    { name = "Sushmi Shrestha", email = "st126256@ait.ac.th" }
+    { name = "Sushmi Shrestha", email = "st126256@ait.asia" }
 ]
 requires-python = ">=3.10"
 dependencies = [
