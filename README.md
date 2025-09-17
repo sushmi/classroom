@@ -5,13 +5,14 @@
 |-- README.md   
 |-- README_A1.md            # README for A1 coding assignment
 |-- README_A2.md            # README for A2 coding assignment
-|-- data                    # where your data file should be
+|-- data                    # where data file should be
 |   `-- example.csv         
-|-- docs                    # where your document should be
-|-- models                  # where your models weight should be
-|-- notebooks               # where your jupyter notebook should be
+|-- docs                    # where document should be
+|-- models                  # where models weight should be
+|-- notebooks               # where jupyter notebook should be
 |   `-- A1 - Predicting Car Prices.ipynb
 |   `-- A2 - Predicting Car Prices.ipynb
+|-- outputs               # where output of jupyter notebook are exported (especially in html format)
 |-- pyproject.toml         
 |-- src                     # where the code/module should be
 |   `-- __init__.py
@@ -30,7 +31,7 @@ Course: ML By Prof. Chaklam Silpasuwanchai, TA Akraradet Sinsamersuk
 1. [README](README_A1.md)
 2. [Solution python notebook](notebooks/A1%20-%20Predicting%20Car%20Prices.ipynb)
 3. [Problem Statement](assignments/A1__Predicting_Car_Price.pdf)
-4. [HTML Export](output/A1%20-%20Predicting%20Car%20Prices.html)
+4. [HTML Export](outputs/A1%20-%20Predicting%20Car%20Prices.html)
 5. [Data set](data/Cars.csv)
 
 ```
