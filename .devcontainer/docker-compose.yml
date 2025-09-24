@@ -2,7 +2,7 @@ services:
   python:
     build: 
       context: .
-      dockerfile: Dockerfile
+      dockerfile: python/dockerfile
     platform: linux/amd64
 
     volumes:

@@ -1,5 +1,4 @@
-#FROM python:3.10.14-bookworm  #does not exists in dockerhub
-FROM python:3.10.18-bookworm 
+FROM python:3.11.4-bookworm
 
 # https://vsupalov.com/docker-arg-env-variable-guide/
 # https://bobcares.com/blog/debian_frontendnoninteractive-docker/

@@ -34,6 +34,17 @@ Course: ML By Prof. Chaklam Silpasuwanchai, TA Akraradet Sinsamersuk
 4. [HTML Export](outputs/A1%20-%20Predicting%20Car%20Prices.html)
 5. [Data set](data/Cars.csv)
 
+
+# Coding Environment
+
+## Use .devcontainer
+1. Install Devcontainer plugin using Package manager
+2. Intall Docker and Docker Desktop or Orbstack 
+3. Once you install Dev Container, you will see .devcontainer folder created with devcontainer.json
+4. For this project, python is managed under .devcontainer/python. Alternatively you can use base image with python installed. Let's work with the current setup, as this help to control python version separately.
+
+
+
 ```
 $ docker login
 
@@ -49,6 +60,7 @@ Waiting for authentication in the browser…
 
 Login Succeeded
 ```
+
 
 
 
