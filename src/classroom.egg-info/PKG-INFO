@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: classroom
 Version: 0.1.0
 Summary: Classroom
-Author-email: Sushmi Shrestha <st126256@ait.ac.th>
+Author-email: Sushmi Shrestha <st126256@ait.asia>
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
@@ -10,6 +10,8 @@ Requires-Dist: ipykernel>=6.30.1
 Requires-Dist: matplotlib>=3.10.6
 Requires-Dist: mlflow>=3.3.2
 Requires-Dist: numpy>=2.2.6
+Requires-Dist: onnx>=1.19.0
+Requires-Dist: onnxruntime>=1.22.1
 Requires-Dist: pandas>=2.3.2
 Requires-Dist: ppscore>=1.1.0
 Requires-Dist: scikit-learn>=1.7.2
@@ -17,22 +19,74 @@ Requires-Dist: scipy>=1.11
 Requires-Dist: seaborn>=0.13.2
 Requires-Dist: setuptools>=80.9.0
 Requires-Dist: shap>=0.48.0
+Requires-Dist: skl2onnx>=1.19.1
 Requires-Dist: torch>=2.8.0
 Requires-Dist: torchvision>=0.23.0
 Dynamic: license-file
 
-Project Structure
-
+# Project Structure
+``` 
 .
 |-- LICENSE
-|-- README.md                      
-|-- data                    # where your data file should be
+|-- README.md   
+|-- README_A1.md            # README for A1 coding assignment
+|-- README_A2.md            # README for A2 coding assignment
+|-- data                    # where data file should be
 |   `-- example.csv         
-|-- docs                    # where your document should be
-|-- models                  # where your models weight should be
-|-- notebooks               # where your jupyter notebook should be
-|   `-- 0-starter.ipynb
+|-- docs                    # where document should be
+|-- models                  # where models weight should be
+|-- notebooks               # where jupyter notebook should be
+|   `-- A1 - Predicting Car Prices.ipynb
+|   `-- A2 - Predicting Car Prices.ipynb
+|-- outputs               # where output of jupyter notebook are exported (especially in html format)
 |-- pyproject.toml         
 |-- src                     # where the code/module should be
 |   `-- __init__.py
-`-- uv.lock
+-- uv.lock
+```
+
+# Coding Assignment Solution
+
+This repository contains assignments from a Machine Learning course, completed as part of my PhD program in Data Science and Artificial Intelligence (DSAI).
+It is intended to serve as a reference for learners. Students are encouraged to use it as guidance and develop their own solutions rather than copying directly.
+
+Course: ML By Prof. Chaklam Silpasuwanchai, TA Akraradet Sinsamersuk
+
+## Coding Assignment A1
+
+1. [README](README_A1.md)
+2. [Solution python notebook](notebooks/A1%20-%20Predicting%20Car%20Prices.ipynb)
+3. [Problem Statement](assignments/A1__Predicting_Car_Price.pdf)
+4. [HTML Export](outputs/A1%20-%20Predicting%20Car%20Prices.html)
+5. [Data set](data/Cars.csv)
+
+
+# Coding Environment
+
+## Use .devcontainer
+1. Install Devcontainer plugin using Package manager
+2. Intall Docker and Docker Desktop or Orbstack 
+3. Once you install Dev Container, you will see .devcontainer folder created with devcontainer.json
+4. For this project, python is managed under .devcontainer/python. Alternatively you can use base image with python installed. Let's work with the current setup, as this help to control python version separately.
+
+
+
+```
+$ docker login
+
+USING WEB-BASED LOGIN
+
+i Info → To sign in with credentials on the command line, use 'docker login -u <username>'
+         
+
+Your one-time device confirmation code is: ABCD-EFGH
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+Waiting for authentication in the browser…
+
+Login Succeeded
+```
+
+
+
+
