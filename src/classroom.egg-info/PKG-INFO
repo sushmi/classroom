@@ -8,6 +8,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: ipykernel>=6.30.1
 Requires-Dist: jupyter>=1.1.1
+Requires-Dist: latex>=0.7.0
 Requires-Dist: matplotlib>=3.10.6
 Requires-Dist: mlflow>=3.3.2
 Requires-Dist: nbconvert>=7.16.6
@@ -15,8 +16,11 @@ Requires-Dist: numpy>=2.2.6
 Requires-Dist: onnx>=1.19.0
 Requires-Dist: onnxruntime>=1.22.1
 Requires-Dist: pandas>=2.3.2
+Requires-Dist: pandoc>=2.4
 Requires-Dist: pip>=25.3
 Requires-Dist: ppscore>=1.1.0
+Requires-Dist: pypandoc>=1.16
+Requires-Dist: pyppeteer>=2.0.0
 Requires-Dist: scikit-learn>=1.7.2
 Requires-Dist: scipy>=1.11
 Requires-Dist: seaborn>=0.13.2
