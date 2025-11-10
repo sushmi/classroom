@@ -15,3 +15,4 @@
 
 # Build files - egg-info, dist, build
 *.egg-info/
+dist/
