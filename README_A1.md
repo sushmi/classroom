@@ -86,3 +86,12 @@ We use cross-validation!
 
 
 ![Big Picture of ML](images/big_picture_of_ML.png)
+
+
+# Docker execution
+
+```shell
+cd ~/dev/ml/classroom/src 
+docker build -t classroom -f docker/.Dockerfile .
+ 
+```

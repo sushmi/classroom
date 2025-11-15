@@ -41,7 +41,7 @@ ENV PATH="/home/${USERNAME}/.local/bin:$PATH"
 ENV PATH="${WORKDIR}/.venv/bin:$PATH"
 
 # COPY start script with USERNAME privilege
-COPY --chown=${USER_UID}:${USER_GID} start.sh /start.sh
+COPY --chown=${USER_UID}:${USER_GID} python/start.sh start.sh
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
