@@ -19,4 +19,4 @@ dist/
 
 
 # Ignore python cache
-src/app/pages/__pycache__
+__pycache__/
