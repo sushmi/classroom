@@ -16,3 +16,7 @@
 # Build files - egg-info, dist, build
 *.egg-info/
 dist/
+
+
+# Ignore python cache
+src/app/pages/__pycache__
