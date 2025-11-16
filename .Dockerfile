@@ -1,4 +1,4 @@
-FROM python:3.11.4-bookworm
+FROM python:3.11.4-slim-bookworm
 
 WORKDIR /root/code
 
@@ -13,6 +13,6 @@ RUN pip3 install scikit-learn
 # Testing module
 RUN pip3 install dash[testing]
 
-COPY ./code /root/code
+COPY ./src/app /root/code
 
 CMD tail -f /dev/null

@@ -203,4 +203,4 @@ def calculate_car_price_model(year, seller_type, transmission, engine, max_power
     X = pd.DataFrame(X, columns=['year', 'seller_type', 'transmission', 'engine', 'max_power']) 
     pred = model.predict(X)
     price = np.exp(pred[0]) .round(2).item()
-    return f"{price:.2f}"
+    return f"THB {price:,.2f}"
