@@ -5,6 +5,7 @@ dash.register_page(__name__, path='/')
 
 layout =  dbc.Container([
     html.H1("Welcome to ML2025 August Session!"),
+    html.H1("Updated: Nov 16, 2025"),
     html.H1("Fun Learning in ML!!!"),
 
 ], fluid=True)

@@ -13,7 +13,7 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dbc.NavLink("Home", href="/")),
         dbc.NavItem(dbc.NavLink("Assignment 1: Predicting Car Price", href="/model1")),
     ],
-    brand="ML2025 August Coursework",
+    brand="ML2025 August Coursework!",
     brand_href="/",
     color="primary",
     dark=True,
