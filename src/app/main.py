@@ -12,6 +12,7 @@ navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Home", href="/")),
         dbc.NavItem(dbc.NavLink("Assignment 1: Predicting Car Price", href="/model1")),
+        dbc.NavItem(dbc.NavLink("Assignment 2: Predicting Car Price", href="/model2")),
     ],
     brand="ML2025 August Coursework!",
     brand_href="/",
